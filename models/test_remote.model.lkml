@@ -2,7 +2,7 @@ connection: "thelook"
 
 # include all the views
 include: "/views/**/*.view.lkml"
-
+include: "/derived_table.view.lkml"
 datagroup: test_remote_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
@@ -24,6 +24,7 @@ explore: billion_orders {
   }
 }
 
+explore: derived_table {}
 explore: bud {}
 
 explore: budget {}
