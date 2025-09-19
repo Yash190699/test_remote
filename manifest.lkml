@@ -1,6 +1,7 @@
 project_name: "test_remote"
 constant: Test {
   value: "Yash"
+  export: override_required
 }
 
 # # Use local_dependency: To enable referencing of another project
