@@ -8,6 +8,10 @@ constant: connection {
   value: "imported_project_connection"
   export: override_required
 }
+constant: field_label {
+  value: "Brand_new"
+  export: override_required
+}
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
