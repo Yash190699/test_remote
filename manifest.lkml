@@ -1,6 +1,11 @@
 project_name: "test_remote"
-constant: Test {
-  value: "Yash"
+# constant: Test {
+#   value: "Yash"
+#   export: override_required
+# }
+
+constant: connection {
+  value: "imported_project_connection"
   export: override_required
 }
 

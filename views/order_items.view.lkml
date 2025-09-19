@@ -14,7 +14,7 @@ view: order_items {
   }
   dimension: order_id {
     type: number
-    label: "@{Test}"
+    label: "@{connection}"
     # hidden: yes
     sql: ${TABLE}.order_id ;;
   }
