@@ -24,7 +24,9 @@ explore: billion_orders {
   }
 }
 
-explore: derived_table {}
+explore: derived_table {
+  label: "@{connection}"
+}
 explore: bud {}
 
 explore: budget {}
