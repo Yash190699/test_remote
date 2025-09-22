@@ -1,6 +1,7 @@
 
 view: derived_table {
   derived_table: {
+    #test
     sql: SELECT
           `brand` AS `products.brand`,
           `category` AS `products.category`,
